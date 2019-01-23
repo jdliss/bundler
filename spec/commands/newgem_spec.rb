@@ -303,7 +303,7 @@ RSpec.describe "bundle gem" do
     end
 
     it "runs rake without problems" do
-      system_gems ["rake-10.0.2"]
+      system_gems ["rake-12.3.2"]
 
       rakefile = strip_whitespace <<-RAKEFILE
         task :default do
@@ -585,7 +585,7 @@ RSpec.describe "bundle gem" do
     end
 
     it "runs rake without problems" do
-      system_gems ["rake-10.0.2"]
+      system_gems ["rake-12.3.2"]
 
       rakefile = strip_whitespace <<-RAKEFILE
         task :default do
